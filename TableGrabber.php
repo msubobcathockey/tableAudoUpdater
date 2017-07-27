@@ -154,7 +154,7 @@ class TableGrabber {
     * @param type $table The table returned from parseTable()
     */
    public static function renderTable($table) {
-       echo('<div style="overflow-x:auto;"><table>');
+       echo('<div class="tableRes"><table style="width:100%">');
 
        foreach($table as $row) {
            echo('<tr align="center" class="light">');
